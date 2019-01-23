@@ -8,9 +8,9 @@ import isEmpty from 'lodash.isempty';
 import isEqual from 'lodash.isequal';
 import isObject from 'lodash.isobject';
 
-checkNpmVersions({ 'simpl-schema': '>=0.0.0' }, 'aldeed:collection2');
+checkNpmVersions({ '@excelnetinc/simpl-schema': '>=0.0.0' }, 'excelnet:collection2');
 
-const SimpleSchema = require('simpl-schema').default;
+const SimpleSchema = require('@excelnetinc/simpl-schema').default;
 
 // Exported only for listening to events
 const Collection2 = new EventEmitter();

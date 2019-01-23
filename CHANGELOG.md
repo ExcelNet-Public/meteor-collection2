@@ -4,6 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [3.0.2](#302)
 - [3.0.1](#301)
 - [3.0.0](#300)
 - [2.8.0](#280)
@@ -63,6 +64,11 @@
 - [0.1.6](#016)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 3.0.2
+
+- Forked from aldeed:collection2 as we are maintaining a version of simpl-schema (@excelnetinc/simpl-schema) with changes necessary for modern Meteor development
+- Integrated PR #309 from original for more recent raix:eventemitter
 
 ## 3.0.1
 

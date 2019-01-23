@@ -1,6 +1,6 @@
 import expect from 'expect';
 import { Mongo } from 'meteor/mongo';
-import SimpleSchema from 'simpl-schema';
+import SimpleSchema from '@excelnetinc/simpl-schema';
 
 const productSchema = new SimpleSchema({
   _id: {

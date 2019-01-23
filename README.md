@@ -1,10 +1,8 @@
-# Collection2 (aldeed:collection2 Meteor package)
-
-[![Backers on Open Collective](https://opencollective.com/meteor-collection2/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/meteor-collection2/sponsors/badge.svg)](#sponsors) [![CircleCI](https://circleci.com/gh/aldeed/meteor-collection2/tree/master.svg?style=svg)](https://circleci.com/gh/aldeed/meteor-collection2/tree/master)
+# Collection2 (excelnet:collection2 Meteor package)
 
 A Meteor package that allows you to attach a schema to a Mongo.Collection. Automatically validates against that schema when inserting and updating from client or server code.
 
-This package requires the [simpl-schema](https://github.com/aldeed/simple-schema-js) NPM package, which defines the schema syntax and provides the validation logic.
+This package requires the [@excelnetinc/simpl-schema](https://github.com/ExcelNet-Public/simple-schema-js) NPM package, which defines the schema syntax and provides the validation logic.
 
 ## TOC
 
@@ -57,8 +55,8 @@ This package requires the [simpl-schema](https://github.com/aldeed/simple-schema
 In your Meteor app directory, enter:
 
 ```bash
-meteor add aldeed:collection2@3.0.0
-meteor npm install --save simpl-schema
+meteor add excelnet:collection2@3.0.0
+meteor npm install --save @excelnetinc/simpl-schema
 ```
 
 ## Why Use Collection2
@@ -322,7 +320,7 @@ to figure out a more specific schema.
 ## Schema Format
 
 Refer to the
-[simpl-schema](https://github.com/aldeed/simple-schema-js) package
+[@excelnetinc/simpl-schema](https://github.com/ExcelNet-Public/simple-schema-js) package
 documentation for a list of all the available schema rules and validation
 methods.
 
@@ -388,7 +386,7 @@ Books.simpleSchema().namedContext("insertForm").validate({title: "Ulysses", auth
 Books.simpleSchema().namedContext("insertForm").validate({title: "Ulysses", author: "James Joyce"}, {modifier: false, keys: ['title']});
 ```
 
-Refer to the [simpl-schema](https://github.com/aldeed/simple-schema-js) package documentation for more information about these methods.
+Refer to the [@excelnetinc/simpl-schema](https://github.com/ExcelNet-Public/simple-schema-js) package documentation for more information about these methods.
 
 ## Inserting or Updating Without Validating
 
@@ -421,7 +419,7 @@ Even if you skip all validation and cleaning, Collection2 will still do some obj
 ## Additional SimpleSchema Options
 
 In addition to all the other schema validation options documented in the
-[simpl-schema](https://github.com/aldeed/simple-schema-js) package, the
+[@excelnetinc/simpl-schema](https://github.com/ExcelNet-Public/simple-schema-js) package, the
 collection2 package adds additional options explained in this section.
 
 ### index and unique

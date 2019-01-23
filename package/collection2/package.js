@@ -1,11 +1,11 @@
 /* global Package */
 
 Package.describe({
-  name: "aldeed:collection2",
+  name: "excelnet:collection2",
   summary: "Automatic validation of Meteor Mongo insert and update operations on the client and server",
-  version: "3.0.1",
+  version: "3.0.2",
   documentation: "../../README.md",
-  git: "https://github.com/aldeed/meteor-collection2.git"
+  git: "https://github.com/ExcelNet-Public/meteor-collection2"
 });
 
 Npm.depends({
@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   api.use('mongo@1.0.4');
   api.imply('mongo');
   api.use('minimongo@1.0.0');
-  api.use('raix:eventemitter@0.1.3');
+  api.use('raix:eventemitter@1.0.0');
   api.use('ecmascript@0.6.1');
   api.use('tmeasday:check-npm-versions@0.3.1');
 
